@@ -1,0 +1,18 @@
+# WordPress specific
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/wp-cache-config.php
+/wp-config.php # Очень важно! Файл wp-config.php содержит конфиденциальные данные.
+/wp-snapshots/
+.htaccess # Если вы используете пользовательский .htaccess, возможно, захотите его версионировать.
+# Опционально: исключите плагины и темы, если вы не хотите их версионировать через Git
+# /wp-content/plugins/
+# /wp-content/themes/
+# Внимание: если вы создаете свою тему, то папку с вашей темой не исключайте!
+
+# IDEs and OS
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
