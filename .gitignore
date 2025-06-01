@@ -1,0 +1,21 @@
+# WordPress specific
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/wp-cache-config.php
+
+# Sehr wichtig! Datei wp-config.php inhalt konfidentiale Daten.
+/wp-config.php 
+
+/wp-snapshots/
+.htaccess # Wenn Sie benutzen eigenen .htaccess, viellecht, möchten Sie er versionen.
+# Optionel
+# /wp-content/plugins/
+# /wp-content/themes/
+# Achtung: wenn Sie bilden eigenes Thema, schliße den Ordnen des eigene Themas nicht!
+
+# IDEs and OS
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
