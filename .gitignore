@@ -3,13 +3,16 @@
 /wp-content/cache/
 /wp-content/upgrade/
 /wp-content/wp-cache-config.php
-/wp-config.php # Очень важно! Файл wp-config.php содержит конфиденциальные данные.
+
+# Sehr wichtig! Datei wp-config.php inhalt konfidentiale Daten.
+/wp-config.php 
+
 /wp-snapshots/
-.htaccess # Если вы используете пользовательский .htaccess, возможно, захотите его версионировать.
-# Опционально: исключите плагины и темы, если вы не хотите их версионировать через Git
+.htaccess # Wenn Sie benutzen eigenen .htaccess, viellecht, möchten Sie er versionen.
+# Optionel
 # /wp-content/plugins/
 # /wp-content/themes/
-# Внимание: если вы создаете свою тему, то папку с вашей темой не исключайте!
+# Achtung: wenn Sie bilden eigenes Thema, schliße den Ordnen des eigene Themas nicht!
 
 # IDEs and OS
 .DS_Store
