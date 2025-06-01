@@ -1,2 +1,3 @@
 # oleant.net
-Mein eigene Website
+Das ist meine Website als Freelancer und Freiberufler, entwickelt mit WordPress. 
+Zukünftig werde ich weitere Informationen hinzufügen.
